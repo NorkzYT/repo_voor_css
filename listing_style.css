@@ -665,3 +665,48 @@ center {
 .white-box {
   background: none;
 }
+
+#cshours {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+#cshours th, 
+#cshours td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#cshours th {
+  background-color: #008080; /* Teal Blue */
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#cshours tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+#cshours tr:hover {
+  background-color: #ddd;
+}
+
+#cshours td {
+  color: #333333;
+}
+
+#cshours th, 
+#cshours td:first-child {
+  width: 30%;
+}
+
+#cshours td:nth-child(2),
+#cshours td:nth-child(3) {
+  width: 35%;
+  text-align: center;
+}
