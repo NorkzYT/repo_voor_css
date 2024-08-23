@@ -27,7 +27,7 @@ p {
   font-size: 14px;
 }
 a {
-  color: #64a564;
+  color: #008080; /* Teal Blue */
   text-decoration: none;
 }
 a:hover {
@@ -60,14 +60,14 @@ h1, h2, h3, h4, h5 {
   padding: 20px;
 }
 #logo {
-  color: #64a564;
+  color: #008080; /* Teal Blue */
   float: left;
   font-family: "Open Sans Condensed", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
 }
 #callout {
-  color: #64a564;
+  color: #008080; /* Teal Blue */
   float: left;
   font-family: "Open Sans Condensed", sans-serif;
   text-decoration: none;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5 {
   padding: 8px 12px;
 }
 .left.one>a {
-  color: #64a564;
+  color: #008080; /* Teal Blue */
   font-size: 14px;
   text-decoration: none;
 }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5 {
   right: 10px;
 }
 .headerNav>a {
-  color: #64a564;
+  color: #008080; /* Teal Blue */
   display: inline-block;
   font-size: 14px;
   margin: 2px 0;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5 {
   margin: 0px 20px 20px;
 }
 .menu {
-  background: #64a564 none repeat scroll 0 0;
+  background: #008080 none repeat scroll 0 0; /* Teal Blue */
   text-align: center;
 }
 .menu ul {
@@ -149,13 +149,13 @@ h1, h2, h3, h4, h5 {
   font-size: 0;
 }
 .menu ul li {
-  border-right: 1px solid #477547;
+  border-right: 1px solid #005959; /* Darker shade of Teal Blue */
   display: inline-block;
   position: relative;
   width: 19.92%;
 }
 .menu ul li:last-child {
-  border-right: 0px solid #477547;
+  border-right: 0px solid #005959; /* Darker shade of Teal Blue */
 }
 .menu ul li a {
   color: #fff;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5 {
   z-index: 2;
 }
 .menu ul li a:hover {
-  background: #477547 none repeat scroll 0 0;
+  background: #005959 none repeat scroll 0 0; /* Darker shade of Teal Blue */
   color: #ffffff;
   transition: all 0.28s ease 0s;
 }
@@ -179,7 +179,7 @@ h2, h1 {
   padding: 6px 0;
 }
 h1 span, h2 span {
-  background: #64a564 none repeat scroll 0 0;
+  background: #008080 none repeat scroll 0 0; /* Teal Blue */
   color: #fff;
   display: block;
   font-family: "Open Sans Condensed", sans-serif;
@@ -247,7 +247,7 @@ h1 span, h2 span {
   transition: all 0.28s ease 0s;
 }
 #left h2 a span:hover {
-  background: #477547 none repeat scroll 0 0;
+  background: #005959 none repeat scroll 0 0; /* Darker shade of Teal Blue */
   transition: all 0.28s ease 0s;
 }
 #left h2 .h2-icon {
@@ -258,7 +258,7 @@ h1 {
   padding: 6px 0;
 }
 h1 span {
-  background: #64a564 none repeat scroll 0 0;
+  background: #008080 none repeat scroll 0 0; /* Teal Blue */
   color: #fff;
   display: block;
   font-size: 19px;
@@ -267,7 +267,7 @@ h1 span {
   text-transform: uppercase;
 }
 #right h1 {
-  border: 1px solid #64a564;
+  border: 1px solid #008080; /* Teal Blue */
   margin: 0;
 }
 #right h1 .h1-icon {
@@ -349,7 +349,7 @@ h3 {
   color: #333333;
 }
 h4 {
-  color: #64a564;
+  color: #008080; /* Teal Blue */
   font-family: "Oswald", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
@@ -429,7 +429,7 @@ h3 span, h4 span {
   width: 100%;
 }
 .css_tabs>label {
-  color: #64a564;
+  color: #008080; /* Teal Blue */
   cursor: pointer;
   display: block;
   float: left;
@@ -445,13 +445,13 @@ h3 span, h4 span {
   width: 13%;
   font-weight: 100;
   border-width: 1px 1px 0 1px;
-  border-color: #64a564;
+  border-color: #008080; /* Teal Blue */
   border-style: solid;
   transition: all 0.28s ease 0s;
   margin-right: 5px;
 }
 .css_tabs>label:hover {
-  background: #64a564;
+  background: #008080; /* Teal Blue */
   color: #ffffff;
   transition: all 0.28s ease 0s;
 }
@@ -462,11 +462,11 @@ h3 span, h4 span {
 .css_tabs [id^="tab"]:checked+label {
   background: #fff none repeat scroll 0 0;
   color: #ffffff;
-  background: #64a564;
+  background: #008080; /* Teal Blue */
 }
 .css_tabs_contents {
   border-width: 2px 1px 1px 1px;
-  border-color: #64a564 #dddddd #dddddd #dddddd;
+  border-color: #008080 #dddddd #dddddd #dddddd; /* Teal Blue */
   border-style: solid;
   font-size: 14px;
 }
@@ -556,7 +556,7 @@ center {
   margin: 0 0 20px;
 }
 #left h2 {
-  border: 1px solid #64a564;
+  border: 1px solid #008080; /* Teal Blue */
   margin: 0;
   padding: 0;
 }
