@@ -714,3 +714,12 @@ center {
   width: 35%;
   text-align: center;
 }
+
+.flex-link {
+  display: flex;
+  align-items: center;
+}
+
+.icon-right {
+  margin-right: 8px; /* Adjust the spacing as needed */
+}
