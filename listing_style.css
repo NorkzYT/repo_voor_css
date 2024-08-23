@@ -666,6 +666,10 @@ center {
   background: none;
 }
 
+.cshours-container {
+  margin-left: 20px; /* Adjust this value as needed */
+}
+
 #cshours {
   width: 100%;
   border-collapse: collapse;
