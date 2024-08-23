@@ -723,4 +723,5 @@ center {
 
 .icon-right {
   margin-right: 2px;
+  transform: translateY(2px);
 }
