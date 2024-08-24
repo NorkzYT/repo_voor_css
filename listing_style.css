@@ -56,29 +56,30 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 #header-container {
-  background: #fff url(../img/header_bg.jpg) no-repeat center;
-  padding: 20px;
+  width: 100%;
+  overflow: hidden; /* Ensures container expands to contain floats */
+  padding: 20px 0;  /* Adjust padding as needed */
 }
 #logo {
-  color: #008080; /* Teal Blue */
-  float: left;
-  font-family: "Open Sans Condensed", sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
+  float: left; /* Ensures logo is positioned on the left */
+  margin-right: 20px; /* Add some space between logo and banner */
 }
-#callout {
-  color: #008080; /* Teal Blue */
-  float: left;
-  font-family: "Open Sans Condensed", sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 20px 20px;
-}
+
 #logo img {
   max-height: 100px;
+  width: auto;
 }
+
+#callout {
+  float: left; /* Ensures the banner image is to the right of the logo */
+  font-family: "Open Sans Condensed", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 #callout img {
   max-width: 534px;
+  height: auto;
 }
 #logo span {
   color: #333333;
